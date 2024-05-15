@@ -8,10 +8,10 @@
     </head>
     <body style="background-color: rgb(0, 123, 255);">
     <header style="background-color: green; color: rgb(255, 0, 157); text-align: center; margin: -10px; padding: 20px">
-   <a href="sunny.html">HOME</a>
-   <a href="about.html">About</a>
-   <a href="service.html">SERVICES</a>
-   <a href="contact.html">CONTACT</a>
+   <a href="sunny.sunny">HOME</a>
+   <a href="about.sunny">About</a>
+   <a href="service.sunny">SERVICES</a>
+   <a href="contact.sunny">CONTACT</a>
    </header>
     <h1 style="color:rgb(204, 17, 17); font-family:montserrat; font-size: 40px; text-align: center;">About my daddy</h1>
     <p style="color:rgb(82, 207, 71); font-family: lato; font-size: 30px; text-align: center;">Sunny's Corner is a digital space dedicated to celebrating the life and legacy of our beloved founder, Mr. Sunny. With a passion for creativity, innovation, and community, Sunny's Corner is a hub for inspiration, learning, and connection.</p>
