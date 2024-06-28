@@ -1,0 +1,115 @@
+header{
+    background: yellow; 
+    text-align: center; 
+    font-size: 15px; 
+    height: 150px; 
+    padding: 25px;
+    margin: -3px;
+    width: 1945px;
+}
+.parent{
+    display:grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto;
+    height: 565px;
+    width: 2000px;
+    background:yellow;
+    gap: 5px;
+}
+.child{
+    border: 15px solid rgb(255, 0, 8);
+    background: rgb(11, 138, 11);
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+    height: 500px;
+    width: 900px;
+}
+.parent1{
+   display: grid;
+   grid-template-columns: auto auto auto auto auto;
+   height: 500px;
+   width: 2000px;
+   gap: 5px;
+   background: red;
+}
+.child1{
+   background: green;
+   text-align: center;
+   border: 20px solid rgb(225, 255, 0);
+   margin: 20px;
+   padding: 7px;
+   height: 400px;
+   width: 300px;
+}
+.parent2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 470px;
+    width: 2000px;
+    gap: 20px;
+    background: green;
+    
+}
+.child2{
+    background: yellow;
+    text-align: center;
+    border: 25px solid red;
+    padding: 10px;
+    height: 350px;
+    margin: 25px;
+}
+footer{
+    background: rgb(0, 195, 255);
+    text-align: center;
+    height: 150px;
+    margin: -10px;
+    padding: 35px;
+    font-size: 15px;
+    width: 1945px;
+}
+.Brazil{
+    background: brown;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 2000px;
+    width: 1960px;
+    gap: 2px;
+    padding: 15px;
+}
+.Andorra{
+    background: orchid;
+    text-align: center;
+    border: 15px solid orange;
+    margin: 15px;
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    gap: 3px;
+}     
+
+.parentflex{
+    display:flex;
+}
+
+nav > a{
+    font-size: 40px;
+    line-height: 150px;
+    font-family: "trebuchet ms";
+    text-decoration: none;
+    padding: 50px;
+}
+ul{
+    font-size: 30px;
+}
+.iseac{
+    font-size: 50px;
+    
+    
+}
+.isreal{
+    background-color: rgb(60, 0, 255);
+    text-align: center;
+    width: 2000px;
+    height: 500px;
+}
