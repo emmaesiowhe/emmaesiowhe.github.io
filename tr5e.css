@@ -1,0 +1,26 @@
+.Brazil{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2px;
+    padding: 15px;
+}
+.Andorra{
+    text-align: center;
+    background-color: aquamarine;
+    border: 15px solid orange;
+    margin: 15px;
+    padding: 20px;
+    gap: 3px;
+}     
+
+.iseac{
+    font-size: 70px;
+    text-align: center;
+    
+    
+}
+.isreal{
+    text-align: center;
+    width: 1010px;
+    height: 100px;
+}
