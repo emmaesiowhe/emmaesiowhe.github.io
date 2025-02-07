@@ -1,20 +1,15 @@
-let speech = new SpeechSynthesisUtterance();
+const notescontainer = document.querySelector(".note-container");
+const createBtn = document.querySelector(".btn");
 
-let voices = [];
+createBtn.addEventListener("click", () => {
+    let inputBox = document.createElement("p");
+    let img = document.createElement("img");
 
-let voiceSelect = document.querySelector("select")
+    inputBox.className = "input-box";  // Fix here (className, not ClassName)
+    inputBox.setAttribute("contenteditable", "true");
 
-window.speechSynthesis.onvoiceschanged = () =>{
-    voices = window.speechSynthesis.getVoices();
-    speech.voice = voices[0];
-
-
-    voices.forEach((voice,i) => (voiceSelect.options[i] = new Option(voice.name, i)));
-};
-
-
-
-document.querySelector("button").addEventListener("click", ()=>{
-    speech.text = document.querySelector("textarea").value;
-    window.speechSynthesis.speak(speech);
+    img.src = "sdddg.jpg";  // Fix here (path in quotes)
+    
+    inputBox.appendChild(img);  // Fix here (appendChild, not appendchild)
+    notescontainer.appendChild(inputBox);  // Fix here (appendChild, not appendchild)
 });
